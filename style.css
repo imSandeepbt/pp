@@ -1,0 +1,137 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(to bottom right, black, white);
+    box-shadow: 5px 10px 8px #000;
+    position: relative;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ol {
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: fit-content;
+}
+
+.nav a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 550;
+    line-height: 1.4;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+
+#welcome {
+    height: 60vh;
+    color: white;
+    background-image: linear-gradient(62deg, #2f619e 0%, #00af1d 100%);
+    margin-top: 40px;
+}
+
+#welcome h1 {
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 2;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#welcome h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#aboutme h1 {
+    font: 1em sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+    padding: 5%;
+}
+
+#aboutme .container {
+    height: 210px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#aboutme .container1 {
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#aboutme .container1 img {
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+#aboutme .container2 {
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#projects {
+    margin: 20px;
+}
+
+#projects h1 {
+    font: 1em sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#projects .table {
+    margin: 20px 40px 0px 40px;
+    border: 2px solid blue;
+}
+
+#education {
+    margin: 20px;
+}
+
+#education h1 {
+    font: 1em sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#education .table {
+    margin: 20px 40px 0px 40px;
+    border: 2px solid blue;
+}
