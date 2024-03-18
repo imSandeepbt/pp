@@ -42,7 +42,6 @@
         justify-content: space-evenly;
         align-items: center;
         list-style: none;
-        width: fit-content;
     }
     
     .nav a {
@@ -71,7 +70,7 @@
     }
     
     #welcome h1 {
-        padding: 30px;
+        padding-top: 100px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 2;
         text-align: center;
@@ -88,8 +87,7 @@
     /* About me */
     
     #aboutme {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 40px;
     }
     
     #aboutme h1 {
@@ -106,6 +104,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        margin: 10px;
     }
     
     #aboutme .container1 {
@@ -128,7 +127,7 @@
         background-color: aliceblue;
         border-radius: 20px;
         height: 200px;
-        width: 200px;
+        width: 500px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -138,12 +137,14 @@
         font-family: sans-serif;
         word-spacing: 1px;
         font-weight: 300;
+        font-size: 30px;
         padding: 20px;
     }
     /* Projects */
     
     #projects {
-        padding-top: 30px;
+        margin: 0px 40px 0px;
+        padding-top: 40px;
     }
     
     #projects h1 {
@@ -159,11 +160,13 @@
         border: 2px solid black;
         margin-left: auto;
         margin-right: auto;
+        font-size: larger;
     }
     /* education */
     
     #education {
-        margin: 20px;
+        margin: 40px;
+        padding-top: 40px;
     }
     
     #education h1 {
@@ -179,53 +182,53 @@
         border: 2px solid black;
         margin-left: auto;
         margin-right: auto;
+        font-size: larger;
     }
     /* Contact Section */
     
     .contact-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        background-color: #000;
         align-items: center;
         text-align: center;
-        width: 100%;
-        height: 80vh;
-        padding: 0 2rem;
-        color: black;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        width: auto;
+        color: white;
     }
     
     .contact-section-header>h2 {
-        font-size: 6rem;
+        font-family: sans-serif;
+        margin-top: 20px;
+        font-size: 5rem;
     }
     
     .contact-section-header>p {
+        margin: 10px;
         font-style: italic;
         font-size: 20px;
     }
     
     #contact .contact-links {
-        display: flex;
         justify-content: space-evenly;
-        width: 100%;
-        max-width: 980px;
+        align-items: center;
         margin-top: 4rem;
-        flex-wrap: wrap;
+        width: auto;
+        padding: 20px;
     }
     
     .contact-links a {
-        color: black;
+        color: white;
+        margin: 20px;
     }
     
     .contact-details {
         font-size: 2.4rem;
-        text-shadow: 2px 2px 1px #1f1f1f;
-        transition: transform 0.3s ease-out;
     }
     
     #contact a:hover {
         background: linear-gradient(45deg, blueviolet, yellow);
         transition: 0.2s;
-        color: whitesmoke;
+        color: black;
         font-weight: bold;
         padding: 5px;
         border-radius: 5px;
@@ -233,8 +236,9 @@
     /* Footer */
     
     footer {
-        height: 20vh;
-        background-image: linear-gradient(62deg, #2f619e 0%, #00af1d 100%);
+        border-top: 5px solid #8a31be;
+        height: 15vh;
+        background-color: black;
     }
     
     footer h1 {
